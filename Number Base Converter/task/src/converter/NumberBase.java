@@ -3,9 +3,10 @@ package converter;
 public class NumberBase {
 
     protected BaseConverter baseConverter;
-    private final int number;
+    private final String number;
 
-    NumberBase(int number) {
+    NumberBase(String number) {
+
         this.number = number;
     }
 
